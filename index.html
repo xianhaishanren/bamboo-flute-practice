@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bamboo Flute Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bamboo: {
+                50: '#fbf9f5',
+                100: '#f5f0e6',
+                200: '#eaddc7',
+                300: '#dbc3a0',
+                400: '#caa376',
+                500: '#be8a53',
+                600: '#b07545',
+                700: '#925e3a',
+                800: '#784d34',
+                900: '#61402d',
+              }
+            },
+            fontFamily: {
+              serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "@heroicons/react/": "https://aistudiocdn.com/@heroicons/react@^2.2.0/",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/bamboo-flute-practice/assets/index-DpZdtDXn.js"></script>
+</head>
+  <body class="bg-bamboo-50 text-bamboo-900 h-screen w-full overflow-hidden">
+    <div id="root" class="h-full w-full flex items-center justify-center">
+      <div class="text-center p-8 max-w-lg">
+        <h2 class="text-2xl font-bold mb-4">Initializing App...</h2>
+        <p class="text-gray-600 mb-4">
+          If this message stays here, it means the app is not running correctly.
+        </p>
+        <div class="bg-yellow-50 border border-yellow-200 p-4 rounded text-left text-sm text-yellow-800">
+          <strong>Troubleshooting for Downloaded Files:</strong>
+          <ul class="list-disc pl-5 mt-2 space-y-1">
+            <li>This is <strong>Source Code</strong> (TypeScript/React), not a standalone HTML file.</li>
+            <li>Web browsers cannot open <code>.tsx</code> files directly from the hard drive (File Protocol).</li>
+            <li>You must run this using a local web server with a build step (like <strong>Vite</strong> or <strong>Live Server</strong>).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- The missing entry point script -->
+</body>
+</html>
